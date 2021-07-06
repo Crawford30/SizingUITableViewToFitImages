@@ -22,8 +22,12 @@ class TableViewController: UITableViewController {
     //#imageLiteral(resourceName: "image10")
     
     
+    
+    //========1. Image literals========
     var images =  [#imageLiteral(resourceName: "image1"),#imageLiteral(resourceName: "image2"),#imageLiteral(resourceName: "image3"),#imageLiteral(resourceName: "image4"),#imageLiteral(resourceName: "image5"),#imageLiteral(resourceName: "image6"),#imageLiteral(resourceName: "image7"),#imageLiteral(resourceName: "image8"),#imageLiteral(resourceName: "image9"),#imageLiteral(resourceName: "image10")]
     
+    
+    //=========2. Image array with name=======
     var imagesArray:[UIImage] = []
         
         //[image1, image2,image3,image4,image5,image6,image7,image8,image9,image10]
